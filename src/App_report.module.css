@@ -1,0 +1,104 @@
+
+.header {
+  display: flex;
+  align-items: center; 
+  gap: 60px;
+  margin-top: 1em;
+}
+
+.logo {
+  height: 145px;
+  width: 145px;
+  padding: 10px;
+  margin-left: 1em;
+}
+.header p {
+  font-size: 50px;
+  font-family: 'ZF Prometo';
+  color: #0070B4;
+  margin-top: 0.3em;
+}
+.text {
+  font-size: 45px;
+  text-align: center;
+  font-family: 'ZF Prometo';
+}
+.text1 {
+  color:black;
+  font-weight: bold;
+}
+.text2 {
+  color:grey;
+  font-family: 'ZF Prometo Light';
+}
+.backButton {
+  border:none;
+  font-family: 'ZF Prometo Light';
+  color:#0070F2;
+  background-color: transparent;
+  font-size: 40px;
+  width: 5em;
+  border:none;
+  border-radius: 2em;
+}
+.nextButton {
+  font-family: 'ZF Prometo';
+  color:white;
+  background-color: #0070F2;
+  font-size: 40px;
+  width: 3em;
+  border:none;
+  border-radius: 0.5em;
+  margin-right: 1em;
+}
+.form p{
+  color:grey;
+  font-family: 'ZF Prometo Light';
+  font-size: 40px;
+  margin-left: 2em;
+  padding-top: 0.5em;
+}
+.functionallbutton {
+  display: flex;
+  margin-top:10em;
+  justify-content: space-between;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.form{
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.input_group select{
+  font-family: 'ZF Prometo Light';
+  height: 3em;
+  border-radius: 0.5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-size: 35px;
+  color:grey;
+
+}
+.input_group select option{
+  font-size: 15px;
+}
+
+ 
+  @media only screen and (max-width: 1000px) {
+    .root{
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .root{
+      width: 85%;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .root{
+      width: 80%;
+    }
+  }

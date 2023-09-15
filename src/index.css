@@ -1,0 +1,11 @@
+body {
+  margin: 10px;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffff;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #000000;
+  }
+}

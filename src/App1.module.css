@@ -1,0 +1,164 @@
+.stickyheader{
+  position: sticky;
+  top: 0; 
+  background-color: white; 
+  z-index: 100; 
+}
+.table_container thead {
+  background: white;
+  position: sticky;
+  z-index: 100;
+  top: 337px; 
+  vertical-align:middle;
+}
+.functionallbutton {
+  position: sticky;
+  bottom: 0; 
+  z-index: 100; 
+}
+
+.header {
+  display: flex;
+  align-items: center; 
+  gap: 60px;
+}
+
+.logo {
+  height: 145px;
+  width: 145px;
+  padding: 10px;
+  margin-left: 1em;
+}
+
+.header p {
+  font-size: 50px;
+  font-family: 'ZF Prometo';
+  color: #0070B4;
+  margin-top: 0.3em;
+}
+
+.search_input{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+.search_input input{
+  display: flex;
+  font-family: 'ZF Prometo Light';
+  width: 35em;
+  height: 2.5em;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  border-radius: 0.5em; 
+  border: 0.1em solid;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  padding-left: 1em;
+  border-color:grey;
+}
+.table_container tbody .NrNot{
+  color:#0070B4;
+  font-family: 'ZF Prometo';
+  font-size: 36px;
+}
+.table_container{
+  width: 60em;  
+  border:none;
+  
+}
+.table_container thead tbody{
+  border: none;
+}
+.table_container th {
+  font-size: 35px;
+  font-family: 'ZF Prometo';
+  font-weight: bold;
+  background-color: transparent;
+  text-align: center;
+  
+}
+.table_container td {
+  font-size: 35px;
+  font-family: 'ZF Prometo Light';
+  background-color: transparent;
+  border: none;
+  text-align: center;
+} 
+.table_container td img{
+  font-size: 35px;
+  background-color: transparent;
+  border: none;
+} 
+
+.listZg {
+  font-size: 35px;
+  margin-left: 2em;
+  margin-top: 0.7em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  font-family: 'ZF Prometo Light';
+}
+
+.functionallbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zglAwar{
+  font-family: 'ZF Prometo';
+  font-size: 35px;
+  color:white;
+  height: 2.2em;
+  background-color: #0070F2;
+  border-radius: 0.5em; 
+  border:none;
+  padding: 0.5em 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.sortButton{
+  background-color: transparent;
+  border: none;
+}
+
+
+  @media only screen and (max-width: 1000px) {
+    .header {
+      font-size: 16px; /* Zmniejsz czcionkę nagłówka */
+    }
+  
+    .logo_SAP {
+      width: 40%; /* Trochę większy logo */
+    }
+  
+    .button_row > div {
+      width: 80%; /* Mniej szerokie przyciski i pola */
+      padding: 5px;
+    }
+  }
+  
+  /* Mniejsze ekrany (max-width: 600px) */
+  @media only screen and (max-width: 600px) {
+    .header {
+      font-size: 14px; /* Jeszcze mniejsza czcionka nagłówka */
+    }
+  
+    .button_row > div {
+        width: 80%; /* Mniej szerokie przyciski i pola */
+        padding: 5px;
+      }
+  }
+  
+  /* Mniejsze ekrany (max-width: 500px) */
+  @media only screen and (max-width: 500px) {
+    .button_row > div {
+      width: 100%; /* Jeszcze mniej szerokie przyciski i pola */
+    }
+  
+    .button_row input[type="button"] {
+      font-size: 18px; /* Nieco mniejsza czcionka w przyciskach */
+      padding: 5px 10px; /* Mniejszy padding w przyciskach */
+    }
+  }
